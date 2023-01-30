@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+:root{
+    /* primary colors */
+    --Soft-orange: hsl(35, 77%, 62%);
+    --soft-red: hsl(5, 85%, 63%);
+
+    /* neutral colors */
+    --off-white: hsl(36, 100%, 99%);
+    --rayish-blue: hsl(233, 8%, 79%);
+    --Dark-grayish-blue: hsl(236, 13%, 42%);
+    --Very-dark-blue: hsl(240, 100%, 5%);
+    
+    --text-font-size: 15px;
+  
+
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-size: var(--text-font-size);
+    font-family: Inter;
+
+}
+section-padding {
+    padding: 20px,100px 10px 100px;
+}
+/* header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+}
+nav{
+    display: flex;
+    gap: 1rem;
+    
+}
+nav p a{
+    color: var(--Dark-grayish-blue);
+    cursor: pointer;
+
+}
+nav p a:hover{
+    color: var(--Soft-orange);
+   
+}
